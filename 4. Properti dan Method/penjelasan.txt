@@ -1,0 +1,6 @@
+APA ITU PROPERTY
+property adalah sebuah variable yang dapat digunakan dalam lingkup class atau object.
+
+APA ITU METHOD
+method adalah segala sesuatu yang dapat dilakukan oleh class atau object.
+
