@@ -1,0 +1,11 @@
+APA ITU CLASS ? 
+class adalah cetakan atau bluepint dari object. Didalam class terdapat property dan method
+
+1. Enkapsulasi (Encapsulation)
+Enkapsulasi adalah prinsip OOP yang menyembunyikan detail implementasi dari objek dan hanya menyediakan antarmuka yang diperlukan untuk berinteraksi dengan objek tersebut.
+
+2. Polimorfisme (Polymorphism)
+Polimorfisme memungkinkan objek untuk digunakan dengan cara yang berbeda, meskipun mereka mungkin memiliki tipe data atau kelas yang berbeda.
+
+3. Pewarisan (Inheritance)
+Pewarisan adalah mekanisme di mana sebuah kelas (kelas turunan) dapat mewarisi properti dan metode dari kelas lain (kelas induk).
