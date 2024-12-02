@@ -1,0 +1,9 @@
+PHP 8 membawa banyak fitur baru yang meningkatkan kemudahan pengembangan, performa, dan keamanan kode. Fitur-fitur utama yang tidak ada di PHP 7 antara lain:
+
+1. Union Types dan Named Arguments.
+2. Attributes untuk metadata di kode.
+3. Constructor Property Promotion untuk menyederhanakan deklarasi kelas.
+4. Match Expressions sebagai pengganti switch.
+5. Peningkatan performa dengan JIT Compiler.
+6. Sanitasi error yang lebih ketat, termasuk TypeError dan ValueError.
+Fitur-fitur ini membuat PHP 8 lebih modern dan lebih efisien dibandingkan dengan PHP 7.
