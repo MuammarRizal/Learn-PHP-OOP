@@ -1,0 +1,7 @@
+KONSEP
+const/constanta pada OOP adalah sebuah keyword yang nilai nya tidak dapat berubah saat terjadi nya proses runtime
+
+untuk mendefinisikan sebuah konstanta kita menggunakan keyword const dan untuk mengakses konstanta didalam class kita menggunakan keyword self dan diluar class kita menggunakan nama class.
+
+VISIBILITAS PADA KONSEP KONSTANTA
+pada PHP 7.1 php menambahkan fitur baru pada konstanta yaitu visibilitas sehingga kita dapat memberikan visibilitas pada konstanta seperti halnya property dan method. Tingkatan visibillitasnya pun sama seperti pada property atau method yaitu private, protected, public dan default.
