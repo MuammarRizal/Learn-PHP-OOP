@@ -4,3 +4,7 @@ property adalah sebuah variable yang dapat digunakan dalam lingkup class atau ob
 APA ITU METHOD
 method adalah segala sesuatu yang dapat dilakukan oleh class atau object.
 
+URUTAN PARAMETER PADA METHOD
+1. Parameter yang wajib diletakan didepan parameter yang memiliki deefault value 
+2. Penamaan parameter harus spesifik dan memiliki arti yang jelas serta menunjukan kegunaan dari parameter tersebut
+3. menggunakan type hinting para parameter untuk menghindari kesalahan ketika memberikan nilai pada parameter
