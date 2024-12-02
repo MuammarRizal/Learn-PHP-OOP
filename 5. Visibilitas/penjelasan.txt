@@ -1,0 +1,10 @@
+Visibilitas adalah untuk mengatur hak akses terhadap property maupun method dari sebuah class.
+
+TINGAKTA VISIBILITAS PADA PHP
+1. Private
+    - visibilitas sebuah property atau method yang diberikan visibilitas private maka property atau method tersebut hanya dapat diakses dari lingkup calss diamana property atau method tersebut di definisikan.
+
+2. Protected.
+    - Visibilitas yang diberikan visibilitas protected maka property atau method tersebut dapat diakses dari lingkup class dimana property atau method tersebut didefinisikan serta turunan dari class tersebut.
+
+3. Public / default.
