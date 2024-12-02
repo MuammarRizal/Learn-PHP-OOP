@@ -1,0 +1,6 @@
+untuk mendefinisikan sebuah property atau method menjadi statis, kita menggunakan keyword "static"
+
+untuk mengakses property atau method static pada lingkup class kita dapat menggunakan 3 cara yaitu
+ - nama class
+ - menggunakan keyword self
+ - atau static

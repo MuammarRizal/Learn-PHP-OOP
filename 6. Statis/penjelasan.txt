@@ -1,0 +1,7 @@
+KONSEP STATIS
+konsep statis adalah konsep yang keluar dari aturan dasar dari konsep OOP tersebut.
+
+Pada konsep statis kita tidak perlu melakukan instansiasi untuk dapat memanggil sebuah property atau method. Karena tidak perlu melakukan instansiasi, Maka kita dapat langsung memanggil property atau method dengan menggunakan nama class diikuti :: (scope resolution opertaion) diikuti property atau method (namaClass :: $propertyStatic)
+
+VISIBILITAS PADA KONSEP STATIS
+sama seperti property atau method pada umumnya yang memiliki visibilitas, property atau method yang statis pun tetap memiliki visibilitas. tingkatan visibilitasnya pun sama seperti pada property atau method biasa yaitu private, protected, puvlic dan default. tidak ada perbedaan antara statis maupun non statis pada property dan method selain pada cara mengaksesnya saja.
