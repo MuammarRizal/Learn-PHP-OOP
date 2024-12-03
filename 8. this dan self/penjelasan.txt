@@ -1,0 +1,10 @@
+- THIS
+keyword $this adalah sebuah variable yang merujuk pada object yang diinstansiasi. variable $this nantikan akan diganti dengan variable hasil instansiase ketika sebuah object terbentuk
+
+Secara mudah, keyword $this adalah sebuah keyword yang digunakan untuk merujuk pada object yang belum diketahui dan digunakan untuk mempermudah kita dalam menuliskan code. keyword $this hanya dapat diakses dari internal class dan tidak dapat diakses dari luar class atau pada lingkup object.
+
+keyword $this bersifat read only seperti halnya konstanta sehingga kita tidak dapat mengubah nilainya
+
+- SELF
+keyword self juga memiliki pengertian dan fungsi yang sama. yang membedakan dengan keyword $this adalah keyword self hanya digunakan untuk memanggil property atau method yang bersifat statis dan juga untuk memanggil konstanta.
+
