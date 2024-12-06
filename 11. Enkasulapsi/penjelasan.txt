@@ -1,0 +1,5 @@
+Enkasulapsi adalah sebuah mekanisme untuk menyembunyikan informasi pada property atau method disebuah class.
+
+contoh dari enkasulapsi seperti visibilitas
+
+dengan enkasulapsi kita bisa mengatur bagaimana sebuah property di set atau diakses nilainya.
