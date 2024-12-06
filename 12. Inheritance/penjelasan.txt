@@ -1,0 +1,21 @@
+Pewarisan / inheritance adalah mekanisme pemberian sifat maupun ciri khusus dari induk (parent) kepada turunan nya (child).
+
+pewarisan adalah mekanisme pemberian property maupun method dari parent class kepada child class.
+
+property dan method yang diwariskan adalah property, method dan konstanta yang mempunyai visibilitas protected dan public
+
+<!-- TIDAK BISA MENGGUNAKAN MULTIPLE INHERITANCE
+pada bahasa pemrograman PHP tidak dikenal multiple inheritance sehingga kita setiap child class hanya boleh memiliki 1 parent class
+
+cara mengakalinya bisa menggunakan nested inheritance
+
+contoh  : 
+
+class Hewan{
+    public string $kelamin = "Perempuan";
+}
+
+class Mamalia extends Hewan{}
+
+class Kambing extends Mamalia{}
+
