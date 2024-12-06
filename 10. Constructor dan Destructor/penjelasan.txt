@@ -1,0 +1,4 @@
+Contructor adalah sebuah method khusus yang dieksekusi ketika sebuah class di instansiasi.
+
+Contructor digunakan untuk mempersiapkan object ketika keyword new dipanggil. Dalam contructor kita dapat melakukan apapun yang kita dapat lalukan pada method biasa namun tidak bisa mengembalikan return value.
+
