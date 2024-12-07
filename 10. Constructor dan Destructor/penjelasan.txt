@@ -1,4 +1,9 @@
+- CONSTRUCTOR
 Contructor adalah sebuah method khusus yang dieksekusi ketika sebuah class di instansiasi.
 
 Contructor digunakan untuk mempersiapkan object ketika keyword new dipanggil. Dalam contructor kita dapat melakukan apapun yang kita dapat lalukan pada method biasa namun tidak bisa mengembalikan return value.
 
+- DESTRUCTOR
+destructor adalah sebuah method khusus yang dieksekusi ketika sebuah object dihapus dari memory. Secara mudah, destructor adalah kebalikan dari contructor.
+
+Beda dengan constructor, destructor tidak dapat memiliki parameter hanya logic nya saja.

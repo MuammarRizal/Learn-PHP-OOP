@@ -13,7 +13,7 @@
             $this->database = $database;
         }
         public function connect(){
-		    return printf(('mysql:host=%s;port=%d;dbname=%s', $this->host, $this->port, $this->database), $this->username, $this->password);
+		    return new PDO(sprintf('mysql:host=%s;port=%d;dbname=%s', $this->host, $this->port, $this->database), $this->username, $this->password);
 	    }
     }
 
