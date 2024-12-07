@@ -1,0 +1,7 @@
+Interface adalah sebuah class yang semua methodnya adalah abstract method.
+
+Karena semua methodnya adalah abstract method maka interface pun harus diimplenetasikan oleh child class seperti halnya pada abstract class.
+
+interface berfungsi untuk memastikan child class memiliki fitur yang telah ditetapkan dalam interface
+
+sementara abstract class berguna untuk memberikan fitur dasar pada child class dimana fitur tersebut dapat digunakan secara bersamasama oleh child class
