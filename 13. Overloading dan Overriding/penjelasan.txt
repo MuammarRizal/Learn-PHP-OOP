@@ -1,2 +1,7 @@
 -- KEYWORD PARENT
 keyword parent hanya dapat digunakan pada child class dan hanya digunakan untuk memanggilmehod yang ada pada parent class
+
+-- OVERRIDING
+Overriding secara mudah dipahami sebagai pendefinisian ulang sebuah method milik parent class oleh child class.
+
+Penambahan ataumodifikasi logic pada method di child class tersebut itulah yang disebut overloading.
