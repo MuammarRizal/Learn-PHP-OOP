@@ -1,0 +1,6 @@
+dalam paradigma pemrograman berbasis objek, pengelompokkan berkas berdasarkan fungsionalitasnya dinamakan packaging atau pemaketan.
+
+packaging biasanya dilakukan dengan mengelompokkan beberapa class yang masih satu fungsionalitas menjadi satu folder
+
+<!-- NAMESPACE
+singkatnya namespace ini sama seperti kotak untuk menampung semua barang barang, bisa dibilang mengelompokkan barang barang, dan yang lebih singkatnya lagi berfungsi untuk mengelompokan kode kode
