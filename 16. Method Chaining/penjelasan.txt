@@ -1,0 +1,15 @@
+Method chaining adalah salah satu konsep yang ada pada pemrograman berbasis objel.
+
+method chaining memungkinkan kita memanggil method secara berantai dalam satu baris sekaligus
+
+Fungsi method chaining adalah mempersingkat pemanggilan method yang tadinya kita perlu memanggil method dalam beberapa baris dengan method chaining kita dapat melakukan nyahanya deengan satu baris kode
+
+contoh :
+$mutator = new StringMutator("Muammar Rizal");
+$mutator-> bold();
+$mutator-> underline();
+$mutator-> italic();
+$mutator-> strike();
+
+menjadi seperti ini
+$mutator->bold()->underline()->italic()->strike();
