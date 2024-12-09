@@ -1,5 +1,7 @@
-<?php 
-    interface RequestInterface{
-        public function handle();
+<?php namespace Rizal\http\Request;
+    class Api{
+        public function handle(){
+            echo "Hello Request";
+        }
     }
 ?>
