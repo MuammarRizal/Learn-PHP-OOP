@@ -17,3 +17,11 @@ Abstract class dan abstract method berguna untuk memastikan child class memiliki
 
 Abstract class akan berguna saat kita membahas tentang type hinting atau parameter hinting. dengan abstract class dan abstract method kita bisa lebih percaya diri ketika memanggil sebuah method karena dapat dipastikan method tersebut dimiliki oleh child class
 
+
+<!-- KENAPA MENGGUNAKAN KELAS ABSTRAC ? 
+Kenapa menggunakan kelas abstrak ? 
+    1. Untuk merepresentasikan ide atau konsep dasar
+    2. Composition over inheritance 
+    3. Salah satu cara menerapkan Polimorphism
+    4. Sentralisasi logic
+    5. Mempermudah pengerjaan tim
