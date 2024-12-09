@@ -1,0 +1,14 @@
+<!-- APA ITU PARAMETER CASTING
+Parameter casting atau type hinting adalah sebuah cara untuk memastikan bahwa paramter yang dimasukan kedalam sebuah method sesuai dengan tipe data yang telah kita tentukan.
+
+type hiting adalah cara kita memaksa pemanggil method untuk memasukan paramter yang tepat dan sesuai
+
+<!-- SCALAR TYPE HINTING 
+Scalar type atau yang juga disebut sebagai primitive type adalah tipe data yang hanya memuat satu data dalam dirinya.
+
+contoh dari tipe data scalar adalah string, int, float dan bool
+
+<!-- OBJECT TYPE HINTING
+object type hinting mempunya fungsi untuk membatasi nilai parameter yang dimasukan kedalam sebuah method.
+
+bedanya adalah yang sekarang kita casting paramter menggunakan nama class atau interface
