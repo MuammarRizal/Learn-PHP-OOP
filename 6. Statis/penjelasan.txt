@@ -5,3 +5,10 @@ Pada konsep statis kita tidak perlu melakukan instansiasi untuk dapat memanggil 
 
 VISIBILITAS PADA KONSEP STATIS
 sama seperti property atau method pada umumnya yang memiliki visibilitas, property atau method yang statis pun tetap memiliki visibilitas. tingkatan visibilitasnya pun sama seperti pada property atau method biasa yaitu private, protected, puvlic dan default. tidak ada perbedaan antara statis maupun non statis pada property dan method selain pada cara mengaksesnya saja.
+
+<!-- STATIC KEYWORD
+- Member yang terikat dengan class, bukan dengan object
+- Nilai static akan selalu tetap meskipun object di instansiasi berulang kali
+- Membuat kode menjadi 'procedural'
+- Biasanya digunakan untuk membuat fungsi bantuan / helper
+- Atau digunakan di class class utility pada framework
