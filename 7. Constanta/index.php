@@ -11,4 +11,5 @@
     echo "Hasil luas dari lingkaran : ".$lingkaran ->luas('7'); echo PHP_EOL;
     echo "hasil luas dari lingkaran : ".Lingkaran::luas(7);
 
-?>
+    echo "<br />";
+ ?>

@@ -5,3 +5,20 @@ untuk mendefinisikan sebuah konstanta kita menggunakan keyword const dan untuk m
 
 VISIBILITAS PADA KONSEP KONSTANTA
 pada PHP 7.1 php menambahkan fitur baru pada konstanta yaitu visibilitas sehingga kita dapat memberikan visibilitas pada konstanta seperti halnya property dan method. Tingkatan visibillitasnya pun sama seperti pada property atau method yaitu private, protected, public dan default.
+
+<!-- PERBEDAAN
+define(variable,value)
+const VARIABLE = value;
+
+- define tidak bisa digunakan didalam class
+- const bisa digunakan didalam class
+
+<!-- MAGIC COSTANT
+__LINE__        : untuk mengetahui sedang berada dibaris berapa
+__FILE__        : mengtahui alamat file yang sedang digunakan
+__DIR__         : Mengetahui directory secara lengkap saat ini
+__FUNCTION__    : Mengetahui sedang berada di function apa
+__CLASS__       : Mengetahui sedang berada di class apa
+__TRAIT__f
+__METHOD__
+__NAMESPACE__
