@@ -4,4 +4,4 @@ keyword parent hanya dapat digunakan pada child class dan hanya digunakan untuk 
 -- OVERRIDING
 Overriding secara mudah dipahami sebagai pendefinisian ulang sebuah method milik parent class oleh child class.
 
-Penambahan ataumodifikasi logic pada method di child class tersebut itulah yang disebut overloading.
+Penambahan atau modifikasi logic pada method di child class tersebut itulah yang disebut overloading.
