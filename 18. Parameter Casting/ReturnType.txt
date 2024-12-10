@@ -1,0 +1,1 @@
+return type declaration atau biasa disebut juga return hinting berfungsi untuk memastikan nilai yang dikembalikan oleh sebuah method telah sesuai dengan tipe data yang diinginkan

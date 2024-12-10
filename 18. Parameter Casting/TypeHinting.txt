@@ -1,0 +1,10 @@
+<!-- SCALAR TYPE HINTING
+Scalar type atau primitive type adalah tipe data yang hanya memuat satu data dalam dirinya.
+
+<!-- OBJECT TYPE HINTING
+Object type hinting mempunyai fungsi untuk membatasi nilai parameter yang dimasukan kedalam sebuah method.
+
+<!-- NULLABLE TYPE HINTING
+Nullable type hinting memungkinakn kita memasukkan paramter null pada parameter casting.
+
+untuk menggunakan fitur ini kita cukup menggunakan tanda tanya didepan type hinting
