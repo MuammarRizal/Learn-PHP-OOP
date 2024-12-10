@@ -5,3 +5,15 @@ Karena semua methodnya adalah abstract method maka interface pun harus diimplene
 interface berfungsi untuk memastikan child class memiliki fitur yang telah ditetapkan dalam interface
 
 sementara abstract class berguna untuk memberikan fitur dasar pada child class dimana fitur tersebut dapat digunakan secara bersamasama oleh child class
+
+<!-- INTERFACE
+    - Kelas abstrak yang sama sekali tidak memiliki implementasi
+    - Murni merupakan template untuk kelas turunan nya
+    - Tidak boleh memiliki property, hanya deklarasi method saja
+    - Semua method harud dideklarasikan dengan visibility public
+    - Boleh mendeklarasikan __construct()
+    - Satu kelas boleh mengimplementasikan banyak interface
+
+<!-- INTERFACE 2
+    - Dengan menggunakan type-hinting dapat melakukan dependency injection
+    - Pada akhirnya akan mencapai Polymorphism
