@@ -1,0 +1,4 @@
+Recursive function adalah sebuah function yang memanggil dirinya sendiri.
+
+Recursice function biasanya dipakai untuk menyelesaikan permasalahn yang mempunyai pola dasar yang berulang seperti perhitungan faktorial
+
