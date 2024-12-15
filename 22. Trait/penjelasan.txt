@@ -1,0 +1,9 @@
+<!-- TRAIT
+Trait adalah sebuah mekanisme dalam PHP yang memungkinkan kita menggunakan (reuse) code pada sebuah trait seperti halnya pada pewarisan.
+
+singkatnya trait itu sendiri adalah copy paste code yang dilakukan melalui bahasa pemrograman. SEhingga bila sebuah class menggunakan trait maka interpreter PHP akan mempasterkan coded pada trait tersebut ke class yang menggunakannya
+
+Trait adalah kebalikan dari interface dimana setiap method dalam sebuah trait harus berupa non abstract method.
+
+Dalam OOP PHP tidak mengenal multiple inheritance sehingga sebuah class dipaksa hanya boleh 1 parent class.
+

@@ -1,0 +1,10 @@
+Trait adalah sebuah fitur yang sangat powerful dalam konsep OOP PHP.
+
+Penggunaan trait secara berlebihan akan mengakibatkan kompleksitas program menjadi meningkat dan membuat kita semakin sulit dalam melakukan tracing.
+
+untuk menghindari hal tersebut ada baiknya kita meperhatikan hal hal dibawah ini
+    1. Jangan membuat nested trait
+    2. Gunakan trait seminimal mungkin
+    3. Gunakan trait sebagai aktifator sebuah interface
+
+buat trait yang berisi semua method yang ada pada interface khususnya pada interface yang sering digunakan.
