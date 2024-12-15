@@ -1,0 +1,18 @@
+Aturan penulisan syntax pada PSR diatur dalam PSR-1 dan kemudian disempurnakan dengan PSR-2. dalam rekomendasi PSR, 
+
+aturan menulis syntax adalah sebagai berikut: 
+    1. Hanya boleh menggunakan tag <?php ? dan <?= > dan tidak boleh menggunakan variasi tag lain.
+    2. Penulisan namespace, dan class harus mengikuti aturan autoload pada PSR-0 dan PSR-4
+    3. Penulisan nama class, interface dan trait harus menggunakan StudlyCaps yaitu mirip seperti camelCase hanya saja huruf awal harus besar
+    4. Constanta harus ditulis dalam huruf kapital dan menggunakan underscore sebagai pemisah kata
+    5. Penulisan nama method harus menggunakan camelCase
+    6. Penulisan nama property tidak diatur secara ketat, hanya saja harus konsisten
+    7. Indent harus menggunakan 4 spasi bukan tab
+
+<!-- PHP CS FIXER
+PHP CS Fixer atau PHP Coding Standard Fixer adalah tools yang dapat membetulakn kode yang ditulis sesuai dengan aturan coding standard yang berlaku
+
+untuk menggunakan tool tersebut, kita dapat mendownload file phar nya melalui website Sensional dan menyimpannya pada root project yang anda kerjakan
+
+untuk menggunakan nya anda cukup mengetikan dari terminal atau command promp perintah tersebut : 
+    $ php php-cs-fixer.phar fix <folder> --rules=@PSR2

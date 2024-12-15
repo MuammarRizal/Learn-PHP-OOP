@@ -1,0 +1,10 @@
+Pada PSR, aturan penamaan class dan namespcae diatur melalui PSR-0 yang kemudian disempurnakan melalui PSR-4 dalam rekomendasi PSR, Aturan penulisan nama dan namespace adalah sebagai berikut : 
+    1. Sebuah class secara FQCN harus ditulis dengan <VendorName>\(<Namespace>)*<ClassName>
+    2. <VendorName> dapat berisi nama package atau library atau nama organisasi pemilik library tersebut.
+    3. Diperbolehkan pada <Namespace> menggunakan nested namespace seperti <Namespace1>\<Namespace2> dan seterusnya
+    4. Setiap namepace harus dikonversi kedalam folder kerja.
+    5. Tanda underscore (_) pada <Namespace> tidak memiliki arti apapun.
+    6. Bila pada <Classname> terdapat underscore (_) maka harus di konversi kedalam folder
+    7. <Namespace> harus diawali dengan huruf besar.
+    8. Aturan ini berlaku juga untuk interface dan trait
+    9. Satu file hanya boleh berisi satu class saja.

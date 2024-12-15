@@ -1,0 +1,15 @@
+<!-- APA ITU PHP STANDARTD RECOMENDATIONS (PSR)
+PHP Standard Recomendations (PSR) Adalah kumpulan aturan atau standard yang diakui dan berlaku pada ekosistem PHP.
+
+Penetapan standarisasi tersebut bertujuan untuk memudahkan kolaborasi antar developer PHP diseluruh dunia.
+
+Salah satu manfaat dari PSR adalah lahirnya composer sebuah dependency manager yang dibuat untuk memudahkan developer PHP untuk melakukan instalasi, mengupdate ataupun menghapus package atau library yang dibutuhkan dalam sebuah project dengan mudah.
+
+<!-- Kenapa harus menetapkan PSR
+Dengan mengikuti sebuah standard tertentu secara langsung maupun tidak langsung akan memberikan manfaat kepada kita, begitu pula ketika kita mengikuti standar yang ada pada ekosistem PHP yaitu PSR.
+
+Dengan mengikuti PSR kita akan mendapatkan manfaat antara lain : 
+    1. Code program menjadi lebih rapih dan terstruktur
+    2. Code yang kita buat menjadi semakin reusable karena dapat digunakan oleh developer lain yang menerapkan PSR dengan mudah.
+    3. Mudah mengganti suatu fungsional atau library dengan fungsional atau library lainnnya karena mempunyai standard yang sama.
+    4. Memudahkan kita berkolaborasi dengan developer lainnya.
