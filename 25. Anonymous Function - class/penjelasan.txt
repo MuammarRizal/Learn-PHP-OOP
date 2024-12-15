@@ -1,0 +1,16 @@
+<!-- ANONYMOUS FUNCTION
+Anonymous Function adalah function tanpa nama dan hanya memiliki body function saja atau yang lazim juga disebut lambda function atau closure function.
+
+perbedaan antara lambda dan closure adalah bahwa dalam closure kita dapat menggunakan variable dari luar konteks function tersebut.
+
+<!-- ANONYMOUS CLASS
+Anonymous class adalah sebuah class tanpa nama yang dibuat sebelum proses instansiasi atau setelah keyword new di deklarasikan. 
+
+Anonymous class sangat membantu jika kita memerlukan object yang simpel dan hanya sekali digunakan.
+
+pada prakteknya anonymous class jarang digunakan
+
+<!-- VARIADIC FUNCTION
+Variadic Function adalah sebuah fungsi yang dapat menerima parameter secara dinamis.
+
+Secara dedfault sebenernya semua function dalam PHP adalah variadic function karena dapat menerima paramter berapapun yang dimasukan kedalam nya
