@@ -1,0 +1,13 @@
+Class Error pada Exception adalah class yang mengimplementasikan interface Throwable dan memiliki beberapa child class. adapun hirarki class Error dan Exception adalah sebagai berikut : 
+    1. Throwable
+        * Error
+            > ArithmeticError
+                - DivisionByZeroError
+        * AssetionError
+        * ParseError
+        * TypeError
+            > ArgumentCountError
+        * Exception
+            > RuntimeException
+
+Karenna baik berupa class maka kita pun dapat membuat child class dari class Error maupun Exception sesuai dengan kebutuhan kita.

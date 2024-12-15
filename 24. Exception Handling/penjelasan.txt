@@ -1,0 +1,9 @@
+<!-- EXCEPTION HANDLING
+Exception handling adalah salah satu fitur penting yang harus ada pada setiap program yang kita buat, agar program yang dibuat menjadi lebih aman.
+
+exception adalah sebuah kondisi dimana program berhenti dan tidak bisa melanjutkan eksekusi code atau biasa yang kita sebut dengan error.
+
+SINGKATNYA
+jadi singkatnya kita dapat menangkap object error tersebut dan kemudian menanganinya sesuai dengan keinginan kita atau biasa disebut exception handling.
+
+Jadi exception handling adalah mekanisme untuk menangkap error yang terjadi pada program dan kemudian menanganinya.
