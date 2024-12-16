@@ -1,0 +1,3 @@
+Late static bindings adalah salah satu fitur PHP yang bekerja hanya pada static inheritance dimana child class meng-override static function milik parent class.
+
+Sederhananya adalah memasukan method static kedalam method static yang lainnya dimana salah satu dari method static nya di override melalui konsep pewarisan.
