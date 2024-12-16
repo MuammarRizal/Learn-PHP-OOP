@@ -1,0 +1,1 @@
+Seperti yang sudah kita pahami bahwa konsep static adalah sebuah konsep yang keluar dari aturan dasar pada pemrograman berbasis object
