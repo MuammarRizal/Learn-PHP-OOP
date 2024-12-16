@@ -1,0 +1,7 @@
+Magic method __set dan __get adalah magic method yang dipanggil pada proses pemberian nilai dan pengaksesan nilai pada suatu property.
+
+<!-- __SET
+Magic method __set() akan dipanggil secara otomatis ketika kita hendak memberikan nilai pada suatu property yang tidak dapat diakses.
+
+<!-- __GET 
+Magic method __get() akan dipanggil ketika kita mencoba mengakses property yang tidak dapat diakses.

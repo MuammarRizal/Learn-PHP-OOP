@@ -1,0 +1,5 @@
+__construct dan __destruct adalah magic method yang berhubungan langsung dengan object creation 
+    - magic method __construct() dipanggil pada saat pembuatan object atau instansiasi
+    - magic method __destruct dipanggil ketika object dihapus dari memory
+
+    

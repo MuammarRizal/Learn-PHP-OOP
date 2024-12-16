@@ -1,0 +1,8 @@
+<!-- APA ITU MAGIC METHOD
+Magic method adalah sekumpulan method yang secara default didaftarkan oleh PHP pada object ketika object tersebut dibuat.
+
+Magic method akan dipanggil secara otomatis pada kondisi tertentu sesuai dengan skop dari magic method tersebut
+
+Magic method pada PHP ditandai dengan double underscore (__) sebagai awalan dari nama method. Contoh magic method yang sudah kita bahas maupun sudah kita gunakan adalah method __construct dan __destruct dan __toString()
+
+karena magic method menggunakan awalan double underscore (__) maka ada baiknya kita tidak memberi nama method dengan memakai double underscore sebagai awalan. Hal ini dimaksudkan agar kita terhindar dari kebingungan.
