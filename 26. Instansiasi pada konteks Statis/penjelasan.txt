@@ -1,1 +1,3 @@
 Seperti yang sudah kita pahami bahwa konsep static adalah sebuah konsep yang keluar dari aturan dasar pada pemrograman berbasis object
+
+dalam konteks static kita tidak perlu membuat object terlebih dahulu untuk menggunakannya
