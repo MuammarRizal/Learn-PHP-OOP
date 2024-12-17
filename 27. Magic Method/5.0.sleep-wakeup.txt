@@ -1,0 +1,9 @@
+magic method __slepp() dan __wakeup() magic method ini akan dipanggil secara otomatis pada proses serialization dan unserialization.
+
+<!-- SERIALIZATION
+Serialization adalah sebuah proses untuk mengubah object menjadi data yang dapat disimpan baik dalam persistent storage. 
+seperti RDBMS atau di transmisikan lagi keprogram lain melalui network
+
+<!-- UNSERIALIZATION
+Unserialization adalah kebalikan dari serialization
+

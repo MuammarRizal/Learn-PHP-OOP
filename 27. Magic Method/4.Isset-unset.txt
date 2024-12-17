@@ -1,0 +1,10 @@
+Magic method berikutnya adalah __isset() dan __unset() yaitu magic method yang akan dipanggil otomatis ketika kita mencoba mengecek eksistensi atau ada tidaknya suatu property pada sebuah class
+
+<!-- MAGIC METHOD __ISSET
+Magic method __isset() akan dipanggil ketika kita memanggil fungsi isset() atau empty() untuk mengecek ada tidaknya property yang tidak dapat diakses dari luar
+
+<!-- MAGIC METHOD __UNSET
+Magic method __unset adalah magic method ini akan dipanggil ketika kita mencoba meng unset sebuah property yant tidak dapat diakses.
+
+biasanya digunakan untuk memanipulasi array key pada sebuah class dimana array key tersebut dianggap sebagai property jika diakses dari luar atau biasa disebut virtual property.
+
