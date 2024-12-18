@@ -1,0 +1,6 @@
+Array access adalah personifikasi sebuah object yang seakan akan dia adalah array. karena object tersebut berperan sebagai array maka kita dapat menggunakan syntax array seperti berikut $object["sesuatu"] ataupun $object["sesuatu"] = "nilai"
+
+// CONTOH PENGGUNAAN
+class dari object tersebut harus mengimplementasikan interface ArrayAccess.
+ 
+Interface ArrayAccess memiliki 4 method yaitu offsetSet(), offsetExists(), offsetUnset() dan offsetGet()
