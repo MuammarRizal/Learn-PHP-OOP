@@ -1,0 +1,5 @@
+<!-- FINAL CLASS
+Pada beberapa kasus dideunia pemrograman berbasis object,  kita kadang perlu memastikan bahwa sebuah class yang kita buat tidak dapat diturunkan menggunakan keyword extends. Ketika kasus tersebut terjadi, kita dapat menggunakan keyword final sebelum keyword class untuk memastikan bahwa class tersebut tidak dapat diturunkan
+
+<!-- FINAL METHOD
+Final method adalah sebuah method yang tidak dapat di ovveride ketika sebuah class diturunkan.
