@@ -7,3 +7,8 @@ seperti RDBMS atau di transmisikan lagi keprogram lain melalui network
 <!-- UNSERIALIZATION
 Unserialization adalah kebalikan dari serialization
 
+<!-- __SLEPP() 
+Magic method __sleep() akan dipanggil ketika kita memanggil fungsi serialize() untuk melakukan serialisasi pada object. 
+
+pada object method __slepp() kita hanya perlu mengembalikan array berupa nama property yang akan kita serialize
+
