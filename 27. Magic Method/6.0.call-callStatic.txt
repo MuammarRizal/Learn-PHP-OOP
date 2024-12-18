@@ -1,0 +1,8 @@
+Magic method __call() dan callStatic() adalah magic method yang akan dipanggil secara otomatis ketika kita memanggil method maupun static method yang tidak dapat di akses
+
+<!-- CALL
+Magic method call() akan dipanggil secara otomatis ketika kita memanggil sebuah method yang tidak dapat diakses pada konteks object.
+
+<!-- __CALL STATIC
+Magic method __callStatic yaitu magic method yang akan dipanggil ketika kita memanggil method yang tidak dapat diakses pada konteks static;
+

@@ -1,0 +1,2 @@
+Magic method __toString() akan dipanggil ketika secara otomatis ketika kita berusaha mencetak sebuah objectt seperti  ketika kita menggunakan keyword echo
+
