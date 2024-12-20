@@ -1,0 +1,26 @@
+Design pattern adalah solusi umum yang berupa best practice yang digunakan untuk menyelesaikan permasalahan permasalahan yang muncul pada pengembangan software
+
+Design pattern semakin berkembang dengan adanyab konsep OOP karena hampir semua design pattern diimplementasikan menggunakan konsep tersebut
+
+Design pattern banyak di implementasikan dalam pembuatan sebuah framework dalam sebuah framework terdapat banayk design pattern yang digunakan dan saling mendukung satu dengan lainnya untuk menyelesaikan permasalahan yang ada pada framework tersebut
+
+<!-- MANFAAT PENGGUNAAN DESIGN PATTERN
+Pemahaman tentang design pattern sangat bermanfaat dalam mempercepat perancangan solusi serta memberikan kemudahan bagi developer lain untuk memahami code yang kita tulis. selain itu code yang ditulis menggunakan design pattern akan lebih mudah untuk di refactoring dikemudian hari.
+
+Manfaat lain penggunaan design pattern adalah efesiensi code, dimana code yang kita tulis menjadi lebih singkat dan lebih mudah fokus dalam menyelesaikan permasalahan tertentu sehingga ketika masalah tersebut berkembang, maka kita dapat mengembangkan solusi yang baru dengan lebih mudah.
+
+<!-- MACAM MACAM DESIGN PATTERN 
+Secara garis besar, design pattern dibagi menjadi 3 yaitu : 
+
+1. Kreasional (Creational)
+    - Pattern ini fokus pada bagaimana sebuah object di instansiasikan
+        * contoh pattern ini adalah abstract factory, builder, pool, singleton, dan lain sebagainya.
+    
+2. Struktural 
+    - Pattern ini fokus pada bagaimana sebuah object di instansiasi.
+        * Contoh pattern ini adalah decorator, adapter, composite dan lain sebagainya
+
+3. Behavioral
+    - Pattern ini mengatur bagaimana komunikasi antar class dalam menyelesaikan sebuah masalah.
+        * Contoh pattern ini antara lain chain of responsibility, strategy, observer dan masih banyak lagi.
+

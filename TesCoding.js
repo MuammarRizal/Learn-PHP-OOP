@@ -55,4 +55,32 @@ const Fibonacci = () => {
   console.log({ Fibonacci: bilangan_fibonacci });
 };
 
-Fibonacci();
+// Fibonacci();
+
+// PALINDROME menggunakan temporary / variable
+function Palindrome(word) {
+  let text = "";
+
+  for (let i = word.length; i > 0; i--) {
+    text += word[i - 1];
+  }
+
+  return text === word ? true : false;
+}
+// console.log(Palindrome("kodok")); // true
+// console.log(Palindrome("rizal")); // false
+
+// PALINDROME tanpa variable
+function PalindromeTnpVar(word) {
+  for (let i = 0; i < word.length; i++) {
+    let indexAwal = i;
+    let indexAkhir = word.length - i - 1;
+
+    if (word[indexAwal] !== word[indexAkhir]) {
+      return false;
+    }
+  }
+  return true;
+}
+
+console.log(PalindromeTnpVar("mom"));
