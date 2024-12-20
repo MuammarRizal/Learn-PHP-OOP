@@ -1,0 +1,5 @@
+Composer adalah sebuah tool yang bertujuan untuk memudahkan developer dalam memanage dependency pada proyek berbasis PHP.
+
+Composer dapat digunakan untuk menginstall, meng-update dan menghapus library yang kita gunakan dalam project kita.
+
+Composer pertama kali digunakan sebagai tool instalasi utama oleh framework symfony karena Jordi adalah salah satu code developer framework tersebut.
