@@ -1,5 +1,4 @@
 <?php namespace ModernOOP\StudiKasus\PPH21;
-use ModernOOP\StudiKasus\PPH21\AbstractCalculator;
 
 class FourthRuleCalculator extends AbstractCalculator
 {

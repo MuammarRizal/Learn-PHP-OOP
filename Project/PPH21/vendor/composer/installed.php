@@ -3,7 +3,7 @@
         'name' => 'modernoop/pph21',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '44fee636b00e7a96e5a7d0025b815e471e8d25b7',
+        'reference' => '7261874c48c18d4435b0bda63b689ad95486d398',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'modernoop/pph21' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '44fee636b00e7a96e5a7d0025b815e471e8d25b7',
+            'reference' => '7261874c48c18d4435b0bda63b689ad95486d398',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

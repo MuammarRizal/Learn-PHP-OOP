@@ -13,4 +13,5 @@ return array(
     'ModernOOP\\StudiKasus\\PPH21\\FourthRuleCalculator' => $baseDir . '/src/FourthRuleCalculator.php',
     'ModernOOP\\StudiKasus\\PPH21\\PPH21Calculator' => $baseDir . '/src/PPH21Calculator.php',
     'ModernOOP\\StudiKasus\\PPH21\\SecondRuleCalculator' => $baseDir . '/src/SecondRuleCalculator.php',
+    'ModernOOP\\StudiKasus\\PPH21\\ThirdRuleCalculator' => $baseDir . '/src/ThirdRuleCalculator.php',
 );

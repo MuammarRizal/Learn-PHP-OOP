@@ -1,80 +1,48 @@
 <?php
 
-class PPH21Calculator
-{
-	private function firstRule(float $pkp): float
-	{
-		if (0 < $pkp && 50000000 >= $pkp) {//0 - 50jt
-			return $pkp * 0.05;
-		}
-		return 0;
-	}
+require __DIR__."/vendor/autoload.php";
 
-	private function secondRule(float $pkp): float
-	{
-		if (50000000 < $pkp && 250000000 >= $pkp) {//50jt - 250jt
-			$pkp -= 50000000;
-			$prev = $this->firstRule(50000000);
-			return ($pkp * 0.15) + $prev;
-		}
-		return 0;
-	}
+use ModernOOP\StudiKasus\PPH21\FirstRuleCalculator; 
+use ModernOOP\StudiKasus\PPH21\SecondRuleCalculator; 
+use ModernOOP\StudiKasus\PPH21\ThirdRuleCalculator; 
+use ModernOOP\StudiKasus\PPH21\FourthRuleCalculator; 
+use ModernOOP\StudiKasus\PPH21\PPH21Calculator;
 
-	private function thirdRule(float $pkp): float
-	{
-		if (250000000 < $pkp && 500000000 >= $pkp) {//250jt - 500jt
-			$pkp -= 250000000;
-			$prev = $this->secondRule(250000000);
-			return ($pkp * 0.25) + $prev;
-		}
-		return 0;
-	}
 
-	private function fourthRule(float $pkp): float
-	{
-		if (500000000 < $pkp && 10000000000000000 >= $pkp) {//> 500jt
-			$pkp -= 500000000;
-			$prev = $this->thirdRule(500000000);
-			return ($pkp * 0.3) + $prev;
-		}
-		return 0;
-	}
+$first = new FirstRuleCalculator();
+$second = new SecondRuleCalculator($first);
+$third = new ThirdRuleCalculator($second);
+$fourth = new FourthRuleCalculator($third);
 
-	public function calculate(float $pkp): float
-	{
-		return $this->firstRule($pkp) ?: $this->secondRule($pkp) ?: $this->thirdRule($pkp) ?: $this->fourthRule($pkp);
-	}
-}
+$calculator = new PPH21Calculator($first, $second, $third, $fourth);
 
-$pph21 = new PPH21Calculator();
-
-//1250000
-echo $pph21->calculate(25000000);
+//1.250.000
+echo $calculator->calculate(25000000); 
 echo PHP_EOL;
-//1500000
-echo $pph21->calculate(30000000);
+//1.500.000
+echo $calculator->calculate(30000000); 
 echo PHP_EOL;
-//2250000
-echo $pph21->calculate(45000000);
+//2.250.000
+echo $calculator->calculate(45000000); 
 echo PHP_EOL;
-//2500000
-echo $pph21->calculate(50000000);
+//2.500.000
+echo $calculator->calculate(50000000); 
 echo PHP_EOL;
-//4000000
-echo $pph21->calculate(60000000);
+//4.000.000
+echo $calculator->calculate(60000000); 
 echo PHP_EOL;
-//6250000
-echo $pph21->calculate(75000000);
+//6.250.000
+echo $calculator->calculate(75000000); 
 echo PHP_EOL;
-//32500000
-echo $pph21->calculate(250000000);
+//32.500.000
+echo $calculator->calculate(250000000); 
 echo PHP_EOL;
-//45000000
-echo $pph21->calculate(300000000);
+//45.000.000
+echo $calculator->calculate(300000000); 
 echo PHP_EOL;
-//82500000
-echo $pph21->calculate(450000000);
+//82.500.000
+echo $calculator->calculate(450000000); 
 echo PHP_EOL;
-//170000000
-echo $pph21->calculate(750000000);
+//170.000.000
+echo $calculator->calculate(750000000); 
 echo PHP_EOL;

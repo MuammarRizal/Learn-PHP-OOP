@@ -28,6 +28,7 @@ class ComposerStaticInit35ac6a6d80de60f5bc0f0da5fa5c1aed
         'ModernOOP\\StudiKasus\\PPH21\\FourthRuleCalculator' => __DIR__ . '/../..' . '/src/FourthRuleCalculator.php',
         'ModernOOP\\StudiKasus\\PPH21\\PPH21Calculator' => __DIR__ . '/../..' . '/src/PPH21Calculator.php',
         'ModernOOP\\StudiKasus\\PPH21\\SecondRuleCalculator' => __DIR__ . '/../..' . '/src/SecondRuleCalculator.php',
+        'ModernOOP\\StudiKasus\\PPH21\\ThirdRuleCalculator' => __DIR__ . '/../..' . '/src/ThirdRuleCalculator.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
