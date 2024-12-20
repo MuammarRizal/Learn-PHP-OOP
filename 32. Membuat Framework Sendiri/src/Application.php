@@ -18,8 +18,8 @@ class Application implements HttpKernelInterface{
 
 		$matcher = new UrlMatcher($routes, $context); 
 
-        $controllerResolver = ControllerResolver();
-        $argumentResolver = ArgumentResolver();
+        $controllerResolver = new ControllerResolver();
+        $argumentResolver = new ArgumentResolver();
 		
 		try {
 			$request->attributes->add($matcher->match($request->getPathInfo()));
